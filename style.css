@@ -1,0 +1,48 @@
+#clock-container {
+    
+    border-radius: 35px;
+    margin: auto;
+    position: relative;
+    background: url(/img/clock.png), url(/img/flower.jpg) ;
+    background-size: 100%;
+    height: 45vw;
+    width: 45vw;
+}
+
+#hHand,
+#mHand,
+#sHand {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hHand {
+    width: 2%;
+    height: 22%;
+    top: 29%;
+    left: 49.18%;
+    /* display: none; */
+
+    
+}
+
+#mHand {
+    /* display: none; */
+    
+    width: 2%;
+    height: 28%;
+    top: 23%;
+    left: 49.18%;
+}
+
+#sHand {
+    /* display: none; */
+    width: 1%;
+    height: 32%;
+    top: 18%;
+    left: 49.73%;
+    background-color: red;
+}
+
